@@ -7,7 +7,7 @@ This project is a basic react app setup. Basic setup include, prop-types for typ
 - React
 
 ## Live Demo
-[Live Demo](https:www.xyz.com/)
+[Live Demo](https://calculatormilestone1.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running follow these simple example steps.
