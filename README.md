@@ -39,7 +39,7 @@ Start server with:
 
 ## Author
 
-👤 **Kalu Agu Kalu**
+👤 **Aye Daniel Asoo**
 
 - [Github](https://github.com/Alaska01)
 - [Twitter](https://twitter.com/AyeAsoo)
