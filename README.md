@@ -56,4 +56,4 @@ Feel free to check the [issues page](https://github.com/Alaska01/Calculator-App/
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- [Microverse Inc](https://www.microverse.org/)
+- [Microverse Inc](https://www.microverse.org/).
