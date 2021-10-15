@@ -1,5 +1,5 @@
 # React Calculator App
-This project is a basic react app setup. Basic setup include, prop-types for typechecking props and big.js.
+This project is a basic react calculator app bare-bone without functionality.
 
 ## Built With
 - CSS
