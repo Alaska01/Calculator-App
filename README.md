@@ -1,5 +1,5 @@
 # React Calculator App
-This project is a basic react app setup. Basic setup include, prop-types for typechecking props and big.js.
+This project is a basic react calculator app bare-bone without functionality.
 
 ## Built With
 - CSS
@@ -7,7 +7,7 @@ This project is a basic react app setup. Basic setup include, prop-types for typ
 - React
 
 ## Live Demo
-[Live Demo](https://calculatormilestone1.netlify.app/)
+[Live Demo](https://priceless-raman-91c904.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running follow these simple example steps.
@@ -56,4 +56,4 @@ Feel free to check the [issues page](https://github.com/Alaska01/Calculator-App/
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- [Microverse Inc](https://www.microverse.org/)
+- [Microverse Inc](https://www.microverse.org/).
