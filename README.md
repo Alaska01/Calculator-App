@@ -1,5 +1,5 @@
 # React Calculator App
-This project is a basic react calculator app bare-bone without functionality.
+This project is a basic react calculator app bare-bone without functionality. This milestone is just there to remind us that they styling is yet to be implemented!
 
 ## Built With
 - CSS
