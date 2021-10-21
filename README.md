@@ -7,7 +7,7 @@ This project is a basic react calculator app. Here, React components, JSX, React
 - React
 
 ## Live Demo
-[Live Demo](https://priceless-raman-91c904.netlify.app/)
+[Live Demo](https://calculator-milestone-5.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running follow these simple example steps.
