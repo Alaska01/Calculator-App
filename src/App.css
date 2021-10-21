@@ -1,5 +1,46 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
+}
+
+body {
   box-sizing: border-box;
+  padding: 2rem 2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.display {
+  height: 6rem;
+  width: 100%;
+  background-color: #858693;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.btnPanel {
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+.btnPanelRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 6.25rem;
+}
+
+.lastRow {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.btnPanelRow button {
+  font-size: 3rem;
+}
+
+.btnPanelRow button:last-child {
+  background-color: #f39148;
 }
