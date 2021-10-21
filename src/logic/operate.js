@@ -1,26 +1,25 @@
 import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
-  let total;
+  let result;
   const num1 = new Big(numberOne);
   const num2 = new Big(numberTwo);
-
   if (operation === '-') {
-    total = num1.minus(num2);
+    result = num1.minus(num2);
   } else if (operation === '+') {
-    total = num1.plus(num2);
-  } else if (operation === 'X') {
-    total = num1.times(num2);
+    result = num1.plus(num2);
+  } else if (operation === 'x') {
+    result = num1.times(num2);
   } else if (operation === '÷') {
-    if (numberTwo === 0) {
-      total = 'Zero divide Error';
+    if (numberTwo !== '0') {
+      result = num1.div(num2);
     } else {
-      total = num1.div(num2);
+      return 'Division by zero Error';
     }
   } else if (operation === '%') {
-    total = num1.div(100);
+    result = num1.div(100);
   }
-  return total.toString();
+  return result.toString();
 };
 
 export default operate;
