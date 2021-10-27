@@ -18,4 +18,3 @@ Display.defaultProps = {
   result: '0',
   next: null,
 };
-
