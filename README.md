@@ -49,6 +49,8 @@ Run test with
 
 ```
 
+![screenshot](./testingcalculator.png)
+
 ## Author
 
 👤 **Aye Daniel Asoo**
