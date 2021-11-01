@@ -17,8 +17,8 @@ it('returns the subtraction of two numbers', () => {
 });
 
 it('returns the subtraction of two numbers', () => {
-  const result = operate(8, 5, '-');
-  expect(result).not.toBe('4');
+  const result = operate(9, 5, '-');
+  expect(result).toBe('4');
 });
 
 it('returns the product of two digits', () => {
