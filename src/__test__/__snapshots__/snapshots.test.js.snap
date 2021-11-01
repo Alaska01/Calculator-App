@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button correctly 1`] = `
+<button
+  onClick={[MockFunction]}
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`renders calculator page correctly 1`] = `
+<div>
+  <nav
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul
+      className="navbar-menu"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/App"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/Quotes"
+          onClick={[Function]}
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="display"
+  >
+    <h2>
+      0
+    </h2>
+  </div>
+  <div
+    className="btnPanel"
+  >
+    <div
+      className="btnPanelRow"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="btnPanelRow"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="btnPanelRow"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="btnPanelRow"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="btnPanelRow lastRow"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders display correctly 1`] = `
+<div
+  className="display"
+>
+  <h2>
+    0
+  </h2>
+</div>
+`;
+
+exports[`renders home page correctly 1`] = `
+<div>
+  <nav
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul
+      className="navbar-menu"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/App"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/Quotes"
+          onClick={[Function]}
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2>
+    Welcome
+  </h2>
+  <p>
+    “The computer programmer is a creator of universes for which he alone is the lawgiver. No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or field of battle and to command such unswervingly dutiful actors or troops.” ― Joseph Weizenbaum
+  </p>
+</div>
+`;
+
+exports[`renders quotes page correctly 1`] = `
+<div>
+  <nav
+    className="navbar"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+    <ul
+      className="navbar-menu"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          href="/App"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/Quotes"
+          onClick={[Function]}
+        >
+          Quotes
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <h2>
+    Welcome
+  </h2>
+  <p>
+    Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. –William Paul Thurston
+  </p>
+</div>
+`;
