@@ -35,6 +35,18 @@ Start server with:
 
 ```
     yarn start or npm start
+
+```
+
+### Testing
+- Check out to the testing branch and test with the following commands
+$ git checkout Test-branch
+
+Run test with
+
+```
+    yarn test or npm test
+
 ```
 
 ## Author
