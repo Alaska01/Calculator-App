@@ -7,7 +7,7 @@ This project is a basic react calculator app. Here, React components, JSX, React
 - React
 
 ## Live Demo
-[Live Demo](www.abc.com)
+[Live Demo](https://aye-maths-magicians.netlify.app/)
 
 ## Getting Started 
 To get a local copy up and running follow these simple example steps.
