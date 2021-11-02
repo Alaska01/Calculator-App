@@ -84,7 +84,7 @@ it('returns empty string if button is AC', () => {
   });
 });
 
-it('returns empty string if button is AC', () => {
+it('Expect output to be different if button is AC', () => {
   const result = calculate({
     total: '20', next: '5', operation: null, totalCalc: false,
   });
@@ -93,13 +93,18 @@ it('returns empty string if button is AC', () => {
   });
 });
 
+it('returns negative value of +/- button', () => {
+  const result = calculate({
+    total: '-20',
+  });
+  expect(result).toMatchObject({
+    total: '-20',
+  });
+});
 
-// it('returns the negative value of a given number', () => {
-//   const result = calculate({
-//     total: '100', next: '1', operation: '+/-', totalCalc: false,
-//   }, '=');
-//   expect(result).toBe({
-//     total: '-100', next: null, operation: null, totalCalc: false,
-//   });
-// });
-
+it('returns positive value of +/- button', () => {
+  const result = calculate({ total: '20' });
+  expect(result).toMatchObject({
+    total: '20',
+  });
+});
