@@ -1,6 +1,8 @@
 # React Calculator App
 This project is a basic react calculator app. Here, React components, JSX, React states and props, and event handlers were utilized.
 
+[screenshot](./calculator.png)
+
 ## Built With
 - CSS
 - JavaScript
@@ -35,7 +37,21 @@ Start server with:
 
 ```
     yarn start or npm start
+
 ```
+
+### Testing
+- Check out to the testing branch and test with the following commands
+$ git checkout Test-branch
+
+Run test with
+
+```
+    yarn test or npm test
+
+```
+
+![screenshot](./testingcalculator.png)
 
 ## Author
 
